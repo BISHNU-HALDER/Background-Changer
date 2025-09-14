@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 1vh 0  ;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;              /* new */
+  padding: 1vw;
+  margin: 2vh 0 0 0;
+  background-color: #212121;
+}
+
+
+.button {
+  border: 2px solid black;
+  height: 10vh;
+  width: 12vw;
+  display: flex;        
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#blue {
+    background-color: blue;
+    cursor: pointer;
+}
+#yellow {
+    background-color: yellow;
+    cursor: pointer;
+}
+#red {
+    background-color: red;
+    cursor: pointer;
+}
+#green {
+    background-color: green;
+    cursor: pointer;
+}
+#pink {
+    background-color: pink;
+    cursor: pointer;
+}
+
+.box-2 {
+  display: flex;          
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vw;
+  padding: 0.5vw 0;
+}
+
+.desc {
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+    margin: 2.5vh 0;
+}
+
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 8vh;
+  width: 8vw;
+  border-radius: 10px;
+  font-size: 1vw;
+  font-weight: bold;
+}
